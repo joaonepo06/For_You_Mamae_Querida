@@ -1,0 +1,152 @@
+:root {
+    --preto: black;
+    --vermelho: red;
+    --amarelo: yellow;
+    --rosa: pink;
+}
+
+
+body {
+    background:var(--preto);
+    margin: 0px;
+    margin-bottom: 45px;
+    width: 100%;
+}
+
+header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: "Bungee Tint", sans-serif;
+    font-size: 100px;
+    text-align: center;
+    width: 100%;
+}
+
+.chama-texto h2 {
+    color:crimson;
+    font-family: "Julee", cursive;
+    font-size: 76px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    
+}
+
+
+header {
+    transition: filter 0.1s ease-in-out;
+}
+
+header:hover {
+    filter: brightness(400%);
+}
+
+.chama-texto-coracao {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    border-top: solid deeppink 10px;
+    border-bottom: solid deeppink 10px;
+
+    background: lightpink linear-gradient(5deg, #ff0000, #00000000);
+
+    width: 100%;
+}
+
+.chama-coracao img {
+    height: 410px;
+    margin-top: -65px;
+    margin-bottom: -40px;
+    
+}
+
+@keyframes blink-animation {
+    50% {
+        opacity: 0;
+    }
+}
+
+.bate-coracao {
+    animation: blink-animation 1.8s steps(1, end) 0.1s infinite;
+
+}
+
+.chama-presente h3 {
+    color: whitesmoke;
+    font-family: "Great Vibes", cursive;
+    font-size: 50px;
+    text-align: center;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+  
+/* width: 100%;  */
+
+}
+
+.chama-presente h3:hover {
+    color: crimson;
+
+}
+
+#container img {
+    height: 300px;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    text-align: center;
+
+}
+
+#container img {
+    opacity: 0.5;
+
+}
+
+#container img:hover {
+    opacity: 1;
+    border: solid 3px rgb(199, 12, 90);
+
+}
+
+.caixa-presente  {
+    flex-basis: calc(27%);
+    text-align: center;
+    width: 100%;
+
+}
+
+footer {
+    background: radial-gradient(crimson, transparent);
+    color: whitesmoke;
+    bottom: 5px;
+    position: fixed;
+    width: 100%;
+    height: 25px;
+    padding-bottom: 25px;
+     
+}
+footer p {
+    text-align: center;
+    font-family: "Great Vibes", cursive;
+    font-size: 30px;
+    margin-top: 5px;
+    margin-right: 15px;
+    margin-left: 15px;
+    width:auto;
+
+}
+
+main  {
+width: 100%;
+
+}
